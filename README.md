@@ -11,6 +11,7 @@ Client -> URL web/https res. (ip)->dns record -> Port 443 -> Nginx -> App.js , s
 1. Jest, @testing-library/react
 
 ## Test Strategy
+
 # React App
 1. Unit Tests __tests__
 - BookSearch Component
@@ -29,4 +30,5 @@ Client -> URL web/https res. (ip)->dns record -> Port 443 -> Nginx -> App.js , s
 - JsDOM might not handle async behaviours exactly like a real browser's DOM
 - CSS etc. jsDOM does not have a rendering engine, therefore styles/sizes/positions won't be accounted for
 
-
+# BookSearch API Integration Test
+- 

@@ -17,6 +17,7 @@ const BookSearch = () => {
   return (
     <div className="book-search">
       <input
+        id="book-search-box"
         type="text"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
@@ -24,7 +25,7 @@ const BookSearch = () => {
         aria-label="search-box"
         style={inputStyles}
       />
-      <button onClick={handleSearch} style={buttonStyles}>Search</button>
+      <button id="search-now-button" onClick={handleSearch} style={buttonStyles}>Search</button>
       <div className="search-results">
         <h2>Search Results</h2>
         <ul>

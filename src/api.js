@@ -1,4 +1,15 @@
 import axios from 'axios';
+import { gql } from '@apollo/client';
+
+export const GET_BOOKS_QUERY = gql`
+  query {
+    books {
+      id
+      title
+      author
+    }
+  }
+`;
 
 const API_BASE_URL = 'http://localhost:4000';
 
